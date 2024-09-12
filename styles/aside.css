@@ -1,0 +1,31 @@
+.aside {
+  width: 80px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  z-index: 200;
+}
+
+.aside-container {
+  height: 70px;
+  width: 70px;
+
+  font-size: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-icon {
+  width: 25px;
+  margin-bottom: 5px;
+}
