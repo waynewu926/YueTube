@@ -8,8 +8,8 @@
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 30px;
+  column-gap: 20px;
+  row-gap: 40px;
 }
 
 .video {
@@ -19,7 +19,7 @@
 }
 
 .cover-info {
-  margin-bottom: 4px;
+  margin-bottom: 12px;
 }
 
 .cover {
@@ -47,7 +47,7 @@
 .title {
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .author,
