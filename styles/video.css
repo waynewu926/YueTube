@@ -2,7 +2,7 @@
   margin-top: 90px;
   margin-left: 110px;
   margin-right: 20px;
-  margin-bottom: 700px;
+  margin-bottom: 30px;
 }
 
 .video-grid {
@@ -13,35 +13,44 @@
 }
 
 .video {
-  display: flex;
-  flex-direction: column;
-  width: 340px;
+  width: 330px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 12px;
 }
 
 .cover-info {
-  margin-bottom: 12px;
+  position: relative;
 }
 
 .cover {
   width: 100%;
 }
 
-.video-info {
-  display: flex;
+.video-time {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+
+  color: white;
+  background-color: black;
+
+  position: absolute;
+  bottom: 13px;
+  right: 8px;
 }
 
-.profile {
-  width: 36px;
-  margin-right: 14px;
+.video-info {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  column-gap: 14px;
 }
 
 .avatar {
   width: 100%;
   border-radius: 18px;
-}
-
-.info {
-  flex: 1;
 }
 
 .title {
