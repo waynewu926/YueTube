@@ -7,13 +7,35 @@
 
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 40px;
 }
 
+@media (max-width: 800px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1050px) {
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1051px) and (max-width: 1300px) {
+  .video-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1301px) {
+  .video-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .video {
-  width: 330px;
+  width: 100%;
 
   display: grid;
   grid-template-columns: 1fr;
