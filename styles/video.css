@@ -52,6 +52,8 @@
 
 .cover {
   width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .video-time {
@@ -92,5 +94,9 @@
 }
 
 .author {
-  margin-bottom: 4px;
+  text-decoration: none;
+}
+
+.stats {
+  margin-top: 4px;
 }
